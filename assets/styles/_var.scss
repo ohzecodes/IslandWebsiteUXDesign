@@ -1,0 +1,30 @@
+$header-height: 3rem;
+
+/*========== Colors ==========*/
+$first-color: rgb(38, 166, 154);
+$first-color-lighter: #ecf3f2;
+$first-color-dark: transparent;
+$title-color: #11443f;
+$text-color: #5b7b78;
+$body-color: #f5fffe;
+
+/*========== Font and typography ==========*/
+$body-font: "Poppins", sans-serif;
+$logo-font: "Lobster", cursive;
+$biggest-font-size: 3rem;
+$big-font-size: 1.25rem;
+$normal-font-size: 0.938rem;
+
+@media screen and (min-width: 1024px) {
+  $biggest-font-size: 5.5rem;
+  $big-font-size: 2rem;
+  $normal-font-size: 1rem;
+}
+
+/*========== Font weight ==========*/
+$font-medium: 500;
+$font-semi-bold: 600;
+
+/*========== z index ==========*/
+$z-tooltip: 10;
+$z-fixed: 100;

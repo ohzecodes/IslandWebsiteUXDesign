@@ -1,0 +1,108 @@
+.contact-container {
+  $primary-contact-color: #010712;
+  $secondary-contact-color: #818386;
+  $bg-contact-color: rgba(white, 0.7);
+  $button-color: #3b3636;
+  $contact-h1-color: #3f444c;
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-image: url("../img/islandfar.jpg");
+  background-size: cover;
+
+  background-position-y: center;
+
+  .right-col {
+    background: $bg-contact-color;
+    padding: 5rem 3.5rem;
+  }
+
+  h1,
+  label,
+  button {
+    font-family: $body-font;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+  }
+
+  h1 {
+    color: $contact-h1-color;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    font-weight: 300;
+  }
+
+  p {
+    color: $secondary-contact-color;
+    font-size: 0.9rem;
+    letter-spacing: 0.01rem;
+
+    text-transform: capitalize;
+    margin: 0.25rem 0;
+  }
+
+  form {
+    margin-bottom: 2rem;
+  }
+
+  input,
+  textarea {
+    width: inherit;
+    display: block;
+  }
+  label {
+    display: block;
+    color: $secondary-contact-color;
+    text-transform: uppercase;
+    font-size: 0.625rem;
+    width: 80%;
+    margin: auto;
+  }
+  p,
+  input,
+  textarea {
+    font-family: $body-font;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: $primary-contact-color;
+    font-family: $body-font;
+  }
+  .right-col input[type="text"],
+  .right-col input[type="email"],
+  .right-col textarea {
+    color: $primary-contact-color;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid $secondary-contact-color;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    outline: none;
+    width: 80%;
+    margin: auto;
+  }
+  .right-col textarea {
+    height: 70px;
+    margin-bottom: 20px;
+  }
+  textarea {
+    resize: none;
+  }
+
+  .btn.btn-dark {
+    text-transform: uppercase;
+    font-weight: 300;
+    background: $button-color;
+    color: $bg-contact-color;
+    width: 80%;
+    height: 2.25rem;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    margin: auto;
+  }
+}

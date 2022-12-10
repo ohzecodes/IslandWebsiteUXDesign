@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Taniti Hotels</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <meta name="description" content="" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="header black">
+      <nav class="nav bd-container">
+        <a href="index.html" class="nav__logo">Taniti</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="todo.html" class="nav__link">things to do</a>
+            </li>
+            <li class="nav__item">
+              <a href="hotels.html" class="nav__link">hotels</a>
+            </li>
+            <li class="nav__item">
+              <a href="transport.html" class="nav__link">transport</a>
+            </li>
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link">contact & FAQs</a>
+            </li>
+          </ul>
+        </div>
+
+        <button
+          class="btn nav__toggle"
+          id="nav-toggle"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvas"
+          aria-controls="offcanvas"
+        >
+          <i class="bx bx-menu"></i>
+        </button>
+
+        <div
+          style="width: 250px"
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvas"
+          aria-labelledby="offcanvasLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul>
+              <li class="nav__item">
+                <a href="Index.html" class="nav__link text-dark">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="todo.html" class="nav__link text-dark">things to do</a>
+              </li>
+              <li class="nav__item">
+                <a href="hotels.html" class="nav__link text-dark">hotels</a>
+              </li>
+              <li class="nav__item">
+                <a href="transport.html" class="nav__link text-dark"
+                  >transport</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="contact.html" class="nav__link text-dark"
+                  >contact & FAQs</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div
+        class="overflow-hidden p-3 p-md-5 m-3 text-center bg-light position-relative hotel banner"
+      >
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+          <h1 class="display-4 fw-normal">Places to stay</h1>
+          <p class="lead fw-normal"></p>
+          <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mb-3 mt-3 hotel-card-group">
+          <div class="col-md-5">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success"
+                  >International 4-star</strong
+                >
+                <h3 class="mb-0 capitalize">Grand Hotel</h3>
+                <!-- <div class="mb-1 text-muted">Nov 11</div> -->
+                <p class="mb-auto">
+                  Grand Hotels are more than just a place to rest your head,
+                  they are on a mission to put you in the heart of the action
+                  and help you create amazing memories.
+                </p>
+                <!-- <a href="#" class="stretched-link">Continue reading</a> -->
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="./assets/img/hotelgrand.jpg" alt="Grand Hotel" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success"
+                  >International 3-star</strong
+                >
+                <h3 class="mb-0 capitalize">Modern Hotel Yellow Leaf</h3>
+                <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                <p class="card-text mb-auto">
+                  Modern Hotel offers guests with a comfortable accommodation in
+                  Taniti. Our staff provides the highest level of availability,
+                  in order to ensure your business prospers.
+                </p>
+                <!-- <a href="#" class="stretched-link">Continue reading</a> -->
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="./assets/img/hotelmodern.jpg" alt="Modern Hotel" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary"
+                  >Local family owned</strong
+                >
+                <h3 class="mb-0 capitalize">corner hotel</h3>
+                <!-- <div class="mb-1 text-muted">Nov 11</div> -->
+                <p class="mb-auto">
+                  This local family owned hotel is on the intersection of Betty
+                  and Crosby street serving the community for over 30 years.
+                  With a warm, inviting atmosphere they offer an ideal location
+                  to relax and enjoy the region's activities.
+                </p>
+                <!-- <a href="#" class="stretched-link">Continue reading</a> -->
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="./assets/img/hotelcorner.jpg" alt="Corner Hotel" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+            >
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary"
+                  >Local family owned</strong
+                >
+                <h3 class="mb-0 capitalize">bed and breakfasts</h3>
+                <!-- <div class="mb-1 text-muted">Nov 12</div> -->
+                <p class="card-text mb-auto">
+                  You can often find small, family-owned hotels and a growing
+                  number of bed and breakfasts in cities and towns across the
+                  island of Taniti.
+                </p>
+                <!--  <a href="#" class="stretched-link">Continue reading</a> -->
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img
+                  src="./assets/img/hotelbedbreakfast.jpg"
+                  alt="bed and breakfast"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top">
+          <div class="col col-md-4 mb-3">
+            <a href="index.html" class="nav__logo">Taniti.gov</a>
+            <p class="text-muted">
+              Taniti is a small, tropical island in the Pacific. The island has
+              an area of less than 500 square miles, the terrain is varied and
+              includes both sandy and rocky beaches, a small but safe harbor,
+              lush tropical rainforests, and a mountainous interior that
+              includes a small, active volcano.
+            </p>
+            <p class="text-muted">&copy; 2022</p>
+          </div>
+
+          <div class="col mb-3 mr-0 text-center">
+            <h5>Navigation</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="index.html" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="todo.html" class="nav-link p-0 text-muted"
+                  >things to do</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="hotels.html" class="nav-link p-0 text-muted">Hotels</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="transport.html" class="nav-link p-0 text-muted"
+                  >transport</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="contact.html" class="nav-link p-0 text-muted"
+                  >contact us</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="contact.html#faqs" class="nav-link p-0 text-muted"
+                  >FAQs</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col mb-3">
+            <h5>newsletter</h5>
+            <form>
+              <input placeholder="email" type="email" name="" id="" />
+              <input type="submit" class="btn btn-dark" />
+            </form>
+          </div>
+          <div class="col mb-3">
+            <h5>Images</h5>
+            <div class="imgcol">
+              <img src="./assets/img/snorkelling.jpg" alt="" />
+              <img src="./assets/img/heli.jpg" alt="" />
+              <img src="./assets/img/volcano.jpg" alt="" />
+              <img src="./assets/img/fishing.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

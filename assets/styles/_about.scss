@@ -1,0 +1,99 @@
+.about-section-title-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.about-section-title-holder.about-st-highlight .about-st-highlight-title-holder {
+  -webkit-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+  position: relative;
+  display: inline-block;
+}
+
+.about-section-title-holder.about-st-highlight .about-st-highlight-title-holder .about-active-hover-middle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 98%;
+  height: 100%;
+  border-radius: 2px;
+  background-color: currentColor;
+}
+
+.about-section-title-holder.about-st-highlight .about-st-highlight-title-holder svg {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.about-section-title-holder.about-st-highlight .about-st-highlight-title-holder svg polygon {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+.about-section-title-holder.about-st-highlight .about-st-highlight-title-holder svg.about-active-hover-left {
+  left: -0.2em;
+}
+
+.about-section-title-holder.about-st-highlight .about-st-highlight-title-holder svg.about-active-hover-right {
+  right: -0.1em;
+}
+
+.about-section-title-holder.about-st-highlight .about-st-highlight-title-holder .about-st-highlight-title {
+  padding: 0 10px 0 5px;
+  position: relative;
+  color: $first-color;
+  z-index: 1;
+}
+
+.about-section-title-holder.about-center-align .about-st-title:after {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.about-section-title-holder.about-right-align .about-st-title:after {
+  right: 0;
+  left: auto;
+}
+
+.about-section-title-holder .about-st-tagline {
+  font-style: italic;
+  color: #878787;
+  font-size: 21px;
+  line-height: 1.2em;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.about-section-title-holder .about-st-title {
+  margin: 0 0 14px;
+  margin-top: 20px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 1.12em;
+}
+
+.about-section-title-holder .about-st-text {
+  display: block;
+  margin: 0;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.about-section-title-holder .about-st-text .about-st-bold {
+  font-weight: 700;
+}
+@media (min-width: 992px) {
+  .rounded-lg-3 {
+    border-radius: 0.3rem;
+  }
+}
